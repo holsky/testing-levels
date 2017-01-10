@@ -1,5 +1,7 @@
 import unittest
 from selenium import webdriver
+import sys
+sys.path.append('..')
 
 class SystemTest(unittest.TestCase):
 

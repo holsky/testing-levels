@@ -1,6 +1,6 @@
 # Testing Levels Example
 
-this is a small application to illustrate to non-technical people what different testing levels look and feel like.
+This is a small application to illustrate to non-technical people what different testing levels look and feel like.
 
 The application implements the FizzBuzz challenge as a HTTP endpoint, */<number>*, that returns the correct answer.
 

@@ -1,12 +1,14 @@
 import os
-import act_example.act_example
+import levels_app
 import unittest
+import sys
+sys.path.append('..')
 
 class IntegrationTest(unittest.TestCase):
 
     def setUp(self):
-        act_example.act_example.app.config['TESTING'] = True
-        self.app = act_example.act_example.app.test_client()
+        levels_app.app.config['TESTING'] = True
+        self.app = levels_app.app.test_client()
 
 #test basic wiring
     def test_index(self):

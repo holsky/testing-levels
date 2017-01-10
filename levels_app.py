@@ -21,4 +21,4 @@ def answer_fizzbuzz(number):
 
 # actual business logic
 def fizzbuzz(number):
-	return "1"   
+	return "1"
