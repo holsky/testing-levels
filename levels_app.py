@@ -21,4 +21,7 @@ def answer_fizzbuzz(number):
 
 # actual business logic
 def fizzbuzz(number):
-	return "1"
+	if number % 3 == 0:
+		return "fizz"
+	else: 
+		return str(number)
