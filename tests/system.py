@@ -9,11 +9,10 @@ class SystemTest(unittest.TestCase):
     def setUpClass(cls):
         cls.driver = webdriver.Chrome()
 
-    def test_answer_1(self):
+    def test_given_1_contains_answer_1(self):
         self.driver.get('http://localhost:5000/1')
-        self.assertEqual(
-            self.driver.find_element_by_id('answer').text,
-            '1')
+        #hint for selection: self.driver.find_element_by_id('answer').text
+        self.assertTrue(False)
 
     @classmethod
     def tearDownClass(cls):
