@@ -6,6 +6,7 @@ sys.path.append('..')
 
 class IntegrationTest(unittest.TestCase):
 
+# initialize levels_app for testing
     def setUp(self):
         levels_app.app.config['TESTING'] = True
         self.app = levels_app.app.test_client()
@@ -14,13 +15,15 @@ class IntegrationTest(unittest.TestCase):
     def test_index(self):
         #returns Response object
         rv = self.app.get('/')
-        self.assertEqual(rv.status, '200 OK')
+        #hint: rv.status
+        self.assertTrue(False)
+        
 
-#test the cut-through
+#test layers by calling for a number
     def test_fizzbuzz(self):
-        rv = self.app.get('/1')
-        self.assertEqual(rv.status, '200 OK')
-        self.assertTrue(b'1' in rv.data)        
+        #hint for comparison: b'1' in rv.data
+        self.assertTrue(False)
+        
 
 
 if __name__ == '__main__':
