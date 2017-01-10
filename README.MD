@@ -19,3 +19,7 @@ I needed to install the following tools & libraries:
 		export PYTHONPATH="/path/to/app:$PYTHONPATH"
    * chromedriver: https://chromedriver.storage.googleapis.com/, add the executable to ~/bin
    * via pip: selenium flask
+
+ ## References
+
+ https://martinfowler.com/bliki/TestPyramid.html
