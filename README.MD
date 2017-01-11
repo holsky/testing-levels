@@ -23,3 +23,12 @@ I needed to install the following tools & libraries:
  ## References
 
  https://martinfowler.com/bliki/TestPyramid.html
+
+ ## Central insights from non-technical users
+
+    * Proper testing requires effort and discipline
+    * Seperating layers is hard and requires effort and discipline
+    * TDD feels quite natural for domain problems
+    * The got me that I directly went to "divisible by 5" instead of going via the cases "equals 5" and "divisible by 5"
+    * Finding the right amont of tests is hard
+    * Writing integration tests, that only test the integration but not the logic and do not break easily is hard
